@@ -6,7 +6,7 @@ export const siteConfig: SiteConfig = {
 	author: "Toni Müller",
 	// Date.prototype.toLocaleDateString() parameters, found in src/utils/date.ts.
 	date: {
-		locale: "de-DE",
+		locale: "en-US",
 		options: {
 			day: "numeric",
 			month: "short",
@@ -16,9 +16,9 @@ export const siteConfig: SiteConfig = {
 	// Used as the default description meta property and webmanifest description
 	description: "A blog about typing fast and typing thoroughly",
 	// HTML lang property, found in src/layouts/Base.astro L:18 & astro.config.ts L:48
-	lang: "de-DE",
+	lang: "en-US",
 	// Meta property, found in src/components/BaseHead.astro L:42
-	ogLocale: "de_DE",
+	ogLocale: "en_US",
 	// Used to construct the meta title property found in src/components/BaseHead.astro L:11, and webmanifest name found in astro.config.ts L:42
 	title: "tonitypes.com blog",
 };
