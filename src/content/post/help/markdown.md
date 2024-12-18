@@ -4,6 +4,7 @@ description: "This post is for testing and listing a number of different markdow
 publishDate: "22 Feb 2023"
 updatedDate: 22 Jan 2024
 tags: ["test", "markdown"]
+draft: true
 ---
 
 ## This is a H2 Heading
@@ -52,7 +53,7 @@ Second example containing a reference[^2] with a link to the source.
 
 [^2]: Second reference with a link.
 
-If you check out this example in `src/content/post/markdown-elements/index.md`, you'll notice that the references and the heading "Footnotes" are added to the bottom of the page via the [remark-rehype](https://github.com/remarkjs/remark-rehype#options) plugin.
+If you check out this example in `src/content/post/help/markdown.md`, you'll notice that the references and the heading "Footnotes" are added to the bottom of the page via the [remark-rehype](https://github.com/remarkjs/remark-rehype#options) plugin.
 
 ## Lists
 
@@ -164,10 +165,96 @@ function demo() {
 
 ## Images
 
-Image in the same folder: `src/content/post/markdown-elements/logo.png`
+Image in the same folder: `src/content/post/help/logo.png`
 
 ![Astro theme cactus logo](./logo.png)
 
 ## Links
 
 [Content from markdown-it](https://markdown-it.github.io/)
+
+## Admonition Types
+
+The following admonitions are currently supported:
+
+- `note`
+- `tip`
+- `important`
+- `warning`
+- `caution`
+
+### Note
+
+```md
+:::note
+Highlights information that users should take into account, even when skimming.
+:::
+```
+
+:::note
+Highlights information that users should take into account, even when skimming.
+:::
+
+### Tip
+
+```md
+:::tip
+Optional information to help a user be more successful.
+:::
+```
+
+:::tip
+Optional information to help a user be more successful.
+:::
+
+### Important
+
+```md
+:::important
+Crucial information necessary for users to succeed.
+:::
+```
+
+:::important
+Crucial information necessary for users to succeed.
+:::
+
+### Warning
+
+```md
+:::warning
+Critical content demanding immediate user attention due to potential risks.
+:::
+```
+
+:::warning
+Critical content demanding immediate user attention due to potential risks.
+:::
+
+### Caution
+
+```md
+:::caution
+Negative potential consequences of an action.
+:::
+```
+
+:::caution
+Negative potential consequences of an action.
+:::
+
+## Customising the admonition title
+
+You can customise the admonition title using the following markup:
+
+```md
+:::note[My custom title]
+This is a note with a custom title.
+:::
+```
+
+Outputs:
+
+:::note[My custom title]
+This is a note with a custom title.
+:::
