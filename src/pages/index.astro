@@ -10,23 +10,33 @@ import { collectionDateSort } from "@/utils/date";
 // Posts
 const MAX_POSTS = 10;
 const allPosts = await getAllPosts();
-const allPostsByDate = allPosts
+const allPostsByDate: CollectionEntry<"post">[] = allPosts
 	.sort(collectionDateSort)
-	.slice(0, MAX_POSTS) as CollectionEntry<"post">[];
+	.slice(0, MAX_POSTS);
 
 // Notes
 const MAX_NOTES = 5;
 const allNotes = await getCollection("note");
-const latestNotes = allNotes.sort(collectionDateSort).slice(0, MAX_NOTES);
+const latestNotes: CollectionEntry<"note">[] = allNotes
+	.sort(collectionDateSort)
+	.slice(0, MAX_NOTES);
 ---
 
 <PageLayout meta={{ title: "Home" }}>
 	<section>
-		<h1 class="title mb-6">Hello World!</h1>
+		<h1 class="title mb-6">Welcome on my blog</h1>
 		<p class="mb-4">
-			Hi, I’m a theme for Astro, a simple starter that you can use to create your website or blog.
-			If you want to know more about how you can customise me, add more posts, and make it your own,
-			click on the GitHub icon link below and it will take you to my repo.
+			Hi, I'm Toni and this is my blog. A place to share thoughts and prayers, think about the state
+			of the world and spread ideas to spark your creativity. A place to <a
+				class="cactus-link"
+				href="https://en.wikipedia.org/wiki/Typing">type</a
+			> about the process of <a class="cactus-link" href="https://en.wikipedia.org/wiki/Type_system"
+				>typing</a
+			>.
+		</p>
+		<p>
+			Follow me on this adventure and let us be amazed together by my attempts of forcing thoughts
+			into dreams, dreams into ideas, ideas into letters and letters into existence.
 		</p>
 		<SocialList />
 	</section>
