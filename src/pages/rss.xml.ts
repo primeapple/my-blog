@@ -14,6 +14,7 @@ export const GET = async () => {
 		description: siteConfig.description,
 		site: import.meta.env.SITE,
 		items: posts.map((post) => ({
+      author: siteConfig.author,
 			title: post.data.title,
 			description: post.data.description,
 			pubDate: post.data.publishDate,

@@ -10,10 +10,11 @@ export const GET = async () => {
 	const notes = await getCollection("note");
 
 	return rss({
-		title: siteConfig.title,
-		description: siteConfig.description,
+		title: "ToniTypes Notes",
+		description: "Collection of notes, not long enough for whole article",
 		site: import.meta.env.SITE,
 		items: notes.map((note) => ({
+      author: siteConfig.author,
 			title: note.data.title,
 			pubDate: note.data.publishDate,
 			link: `notes/${note.id}/`,
