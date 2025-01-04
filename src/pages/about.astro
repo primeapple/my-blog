@@ -2,7 +2,7 @@
 import PageLayout from "@/layouts/Base.astro";
 
 const meta = {
-	description: "I'm a starter theme for Astro.build",
+	description: "About myself and this blog",
 	title: "About",
 };
 ---
@@ -10,28 +10,96 @@ const meta = {
 <PageLayout meta={meta}>
 	<h1 class="title mb-6">About</h1>
 	<div class="prose prose-sm prose-cactus max-w-none">
+		<p>Hi, my name is Toni.</p>
 		<p>
-			Hi, I’m a starter Astro. I’m particularly great for getting you started with your own blogging
-			website.
+			Ths blog is a place for myself to write thoughts, opinions and and open questions out of my
+			head into a collection of letters. While I hope it may be helpful for others, it's very first
+			purpose is to practice the art of writing and not sharing knowledge (which hopefully still
+			happens).<br />
+			To understand my point of view, it is helpful to know the following facts about me (ordered by
+			importance descending for this blog)
 		</p>
-		<p>Here are my some of my awesome built in features:</p>
 		<ul class="list-inside list-disc" role="list">
-			<li>I'm ultra fast as I'm a static site</li>
-			<li>I'm fully responsive</li>
-			<li>I come with a light and dark mode</li>
-			<li>I'm easy to customise and add additional content</li>
-			<li>I have Tailwind CSS styling</li>
-			<li>Shiki code syntax highlighting</li>
-			<li>Satori for auto generating OG images for blog posts</li>
+			<li>
+				I love the physical process of typing on a keyboard. One of my goals is to get very fast and
+				thorough at it.
+			</li>
+			<li>
+				I work as a programmer by day and play as a programmer by night. I enjoy rich type systems,
+				allthough I sometimes get lost in "type masturbastion".
+			</li>
+			<li>
+				I enjoy the UNIX philosophy of "Do one thing and do it well". I try to avoid devices and
+				services that solve to many problems at once (Smartphones and modern IDEs are the most
+				obvious ones for me).
+			</li>
+			<li>
+				I do like all sorts of sport. The one I had most fun with is running. Sadly because of
+				injuries I don't do it as much anymore.
+			</li>
+			<li>
+				I'm a husband and father of two girls. We live on a farm in a small village in Saxony,
+				Germany.
+			</li>
+			<li>
+				I used to be very religious. Nowadays I still believe in the biblical god but my daily life
+				is mostly unaffected by it. It is more of a deep knowledge that god is in control of my life
+				and takes care of me.
+			</li>
 		</ul>
 		<p>
-			Clone or fork my <a
+			On the technical site, this blog is a collection of templates and posts written in markdown,
+			in combination with the following technologies:
+		</p>
+		<ul class="list-inside list-disc" role="list">
+			<li>
+				The page uses the <a
+					aria-label="Astro Framework page"
+					class="cactus-link"
+					href="https://astro.build/"
+					rel="noreferrer"
+					target="_blank">Astro Framework</a
+				> to tie everything together and generate static HTML 🚀.
+			</li>
+			<li>
+				An inspiration of the structure and code was the amazing
+				<a
+					aria-label="astro-cactus github repository"
+					class="cactus-link"
+					href="https://github.com/chrismwilliams/astro-cactus"
+					rel="noreferrer"
+					target="_blank">astro-cactus template</a
+				> by Chris Williams. Without his work I might never have started working on this project 🌵.
+			</li>
+			<li>
+				Deployment is done via
+				<a class="cactus-link" href="https://www.docker.com/" rel="noreferrer" target="_blank"
+					>docker</a
+				> by using the
+				<a
+					class="cactus-link"
+					href="https://containrrr.dev/watchtower/"
+					rel="noreferrer"
+					target="_blank">watchtower</a
+				> service 🐳.
+			</li>
+      <li>
+        Hosting is done by <a
+					class="cactus-link"
+					href="https://www.hetzner.com/"
+					rel="noreferrer"
+					target="_blank">Hetzner</a
+        > on green energy 💚.
+      </li>
+		</ul>
+		<p>
+			Check out the <a
 				aria-label="github repository"
 				class="cactus-link inline-block"
-				href="https://github.com/chrismwilliams/astro-cactus"
+				href="https://github.com/primeapple/my-blog"
 				rel="noreferrer"
-				target="_blank">repo</a
-			> if you like me!
+				target="_blank">repository</a
+			> if you like. Everything is open source! ❤️
 		</p>
 	</div>
 </PageLayout>
