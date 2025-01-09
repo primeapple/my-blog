@@ -2,7 +2,7 @@
 title: "Shaping identity instead of counting actions"
 description: "Why New-Year resolutions are awesome and why I don't want to do 30 push ups this year"
 publishDate: "2025-01-06"
-updatedDate: "2025-01-06"
+updatedDate: "2025-01-09"
 tags: ["personal", "goals"]
 ---
 
@@ -68,7 +68,7 @@ It's most likely a habbit already.
 And habits are the endgame anyway and win you the game in the long run.
 
 Remember, it's estimated that 80% of new years resolutions fail.
-That means if you just start just three things this year you already have a 87% (`1 - 0.8^12`) chance of at least one of them sticking.
+That means if you just start just 12 things this year (one a month) you already have a 87% (`1 - 0.8^12`) chance of at least one of them sticking.
 Meaning that you will form at least one new habit this year.
 
 Have a good day stranger and now go ahead and start over!
