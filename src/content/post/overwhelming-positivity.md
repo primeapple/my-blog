@@ -26,7 +26,9 @@ That's how I want my positivity and hope to be, this year 2025.
 Not just sitting in the burning house, drinking tee and manifesting "This is fine" to myself (as done in the popular [meme](https://knowyourmeme.com/memes/this-is-fine)).
 Well, this is as unclear as it was written by a generic LLM, so to put it behind numbers (everything looks more professional with numbers before)
 
-1. TODO Make the good things better
-2. TODO It's better to be hopeful than to be
-3. TODO Jesus actually gives hope, Hope Love Faith
+## Why being positive is worth it
+
+1. Positivity makes me happy. I realized that spending time with people that are excited is so much more meaningful than having to endure others that bathe in negativity. The person I spend the most time with is myself. I want myself to be the very best uplifter for myself that I can be.
+2. Having hope for the future enables me to move towards it. Suddenly there is a goal, something bright, not just darknes ahead. I want to see that more. So I do good things now and feel better because I move towards this more positivity that awaits my future.
+3. Everything will be good. It's that childish naivity that is the single most important point in this post. Deep down in my hard I believe that everything will be good. It may be the last relict of my religious past that surived every deconstruction of christianity in my life. It will be good, because god is good. And if it is not good already, it simply is not the end yet.
 
