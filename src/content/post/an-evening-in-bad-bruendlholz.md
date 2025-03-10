@@ -1,7 +1,7 @@
 ---
 title: "An evening in Bad Bründlholz"
 description: "My first impressions of the RPG Rule set \"Lange Schatten in Bad Bründlholz\". No review but some gut feelings after playing it for a session."
-publishDate: "2025-03-08"
+publishDate: "2025-03-10"
 tags: ["pen&paper"]
 ---
 
