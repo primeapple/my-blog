@@ -11,8 +11,6 @@ import { expressiveCodeOptions } from "./src/site.config";
 import { siteConfig } from "./src/site.config";
 
 // Remark plugins
-import remarkDirective from "remark-directive"; /* Handle ::: directives as nodes */
-import { remarkAdmonitions } from "./src/plugins/remark-admonitions"; /* Add admonitions */
 import { remarkReadingTime } from "./src/plugins/remark-reading-time";
 
 // Rehype plugins
@@ -85,7 +83,7 @@ export default defineConfig({
 			],
 			rehypeUnwrapImages,
 		],
-		remarkPlugins: [remarkReadingTime, remarkDirective, remarkAdmonitions],
+		remarkPlugins: [remarkReadingTime],
 		remarkRehype: {
 			footnoteLabelProperties: {
 				className: [""],
