@@ -2,7 +2,7 @@
 title: "Satisfaction over efficiency"
 description: "Selecting tools and workflows based on the enjoyment they bring"
 publishDate: "2025-08-20"
-updatedDate: "2025-08-20"
+updatedDate: "2025-09-30"
 tags: ["personal"]
 ---
 
@@ -27,7 +27,7 @@ People made it their mission to port every possible software on earth into a Ter
 Just yesterday a friend told me about his current workflow with Emacs.
 He shared how much of a pain it is to get his browser working in the Terminal, because of JavaScript and tracking and so on.
 
-There is nothing wrong with this
+There is nothing wrong with this.
 As already described, text commands certainly have their strength.
 But in my honest opinion it's not the medium for everything.
 
