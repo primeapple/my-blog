@@ -8,10 +8,10 @@ tags: ["personal", "character"]
 
 As I wrote in the [last post](https://tonitypes.com/TODO) I work my next yearly goals in the end of each year.
 This year I wanted to focus away from specific goals to a more general, idealistic, version of myself in certain areas.
-What I didn't write, tho, was that I also like catchy, motivating phrases.
+What I didn't write, was that I also like catchy, motivating phrases.
 I like them a lot.
 So much that I try to give some of my goals certain headlines.
-I will spare you most of them but the headline of my overall year 2025 will be "Overwhelming positivity".
+I'll spare you most of them but the headline of my overall year 2025 will be "Overwhelming positivity".
 
 The inspiration on this one came from the review section of games on the [Steam](https://steampowered.com) game client.
 It marks the top voted games where over 95 percent of the 500+ reviews have been positive.
