@@ -5,7 +5,7 @@ RUN npm ci
 COPY . .
 RUN npm run build && npm run postbuild
 
-FROM httpd:2.4 AS runtime
+FROM httpd:2.4.71 AS runtime
 COPY --from=build /app/dist /usr/local/apache2/htdocs/
 
 # Configure Apache to write logs to both files AND stdout/stderr
